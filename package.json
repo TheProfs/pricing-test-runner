@@ -1,0 +1,34 @@
+{
+  "name": "pricing-test-runner",
+  "version": "0.1.0",
+  "description": "Pricing flows test runner for v2 plans",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheProfs/pricing-test-runner.git"
+  },
+  "keywords": [
+    "test",
+    "v2-plans",
+    "flows",
+    "bitpaper"
+  ],
+  "author": "@TheProfs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheProfs/pricing-test-runner/issues"
+  },
+  "homepage": "https://github.com/TheProfs/pricing-test-runner#readme",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^9.0.2",
+    "puppeteer": "^22.0.0"
+  }
+}
